@@ -7,6 +7,11 @@
  */
 static char *font = "Noto Sans Mono:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
+static char *font2[] = {
+    "Symbols Nerd Font Mono:pixelsize=20:antialias=true:autohint=true"
+/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+};
 
 /*
  * What program is execed by st depends of these precedence rules:
