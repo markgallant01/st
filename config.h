@@ -100,8 +100,12 @@ unsigned int tabspaces = 8;
 float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/* uncomment a single colorscheme at a time */
+
+// default
+/*
 static const char *colorname[] = {
-	/* 8 normal colors */
+    // 8 normal colors
 	"black",
 	"red3",
 	"green3",
@@ -111,7 +115,7 @@ static const char *colorname[] = {
 	"cyan3",
 	"gray90",
 
-	/* 8 bright colors */
+    // 8 bright colors
 	"gray50",
 	"red",
 	"green",
@@ -123,13 +127,176 @@ static const char *colorname[] = {
 
 	[255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
+	// more colors can be added after 255 to use with DefaultXX
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"gray90", // default foreground colour
+	"black", // default background colour
 };
+*/
 
+// solarized-dark
+/*
+static const char *colorname[] = {
+	// 8 normal colors
+	"#002b36",
+	"#dc322f",
+	"#859900",
+	"#b58900",
+	"#268bd2",
+	"#6c71c4",
+	"#2aa198",
+	"#93a1a1",
+
+	// 8 bright colors
+	"#657b83",
+	"#dc322f",
+	"#859900",
+	"#b58900",
+	"#268bd2",
+	"#6c71c4",
+	"#2aa198",
+	"#fdf6e3",
+
+	[255] = 0,
+
+	// more colors can be added after 255 to use with DefaultXX
+	"#cccccc",
+	"#555555",
+	"#93a1a1", // default foreground colour
+	"#002b36", // default background colour
+};
+*/
+
+// monokai-dark
+/*
+static const char *colorname[] = {
+	// 8 normal colors
+	"#272822",
+	"#f92672",
+	"#a6e22e",
+	"#f4bf75",
+	"#66d9ef",
+	"#ae81ff",
+	"#a1efe4",
+	"#f8f8f2",
+
+	// 8 bright colors
+	"#75715e",
+	"#f92672",
+	"#a6e22e",
+	"#f4bf75",
+	"#66d9ef",
+	"#ae81ff",
+	"#a1efe4",
+	"#f9f8f5",
+
+	[255] = 0,
+
+	// more colors can be added after 255 to use with DefaultXX
+	"#cccccc",
+	"#555555",
+	"#f8f8f2", //default foreground colour
+	"#272822", // default background colour
+};
+*/
+
+/*
+// monokai-light
+static const char *colorname[] = {
+	// 8 normal colors
+	"#272822",
+	"#f92672",
+	"#a6e22e",
+	"#f4bf75",
+	"#66d9ef",
+	"#ae81ff",
+	"#a1efe4",
+	"#f8f8f2",
+
+	// 8 bright colors
+	"#75715e",
+	"#f92672",
+	"#a6e22e",
+	"#f4bf75",
+	"#66d9ef",
+	"#ae81ff",
+	"#a1efe4",
+	"#f9f8f5",
+
+	[255] = 0,
+
+	// more colors can be added after 255 to use with DefaultXX
+	"#cccccc",
+	"#555555",
+	"#49483e", //default foreground colour
+	"#f9f8f5", // default background colour
+};
+*/
+
+// visiblue
+/*
+static const char *colorname[] = {
+	// 8 normal colors
+	"#333366",
+	"#6666cc",
+	"#0099cc",
+	"#3366cc",
+	"#006699",
+	"#0066ff",
+	"#669999",
+	"#99cccc",
+
+	// 8 bright colors
+	"#333399",
+	"#9999ff",
+	"#00ccff",
+	"#6699ff",
+	"#0099cc",
+	"#0099ff",
+	"#66cccc",
+	"#ccffff",
+
+	[255] = 0,
+
+	// more colors can be added after 255 to use with DefaultXX
+	"#cccccc",
+	"#555555",
+	"#666699", //default foreground colour
+	"#000000", // default background colour
+};
+*/
+
+// solarized-osaka
+static const char *colorname[] = {
+	// 8 normal colors
+	"#002b36",
+	"#dc322f",
+	"#859900",
+	"#b58900",
+	"#268bd2",
+	"#d33682",
+	"#2aa198",
+	"#eee8d5",
+
+	// 8 bright colors
+	"#586e75",
+	"#ff9d9b",
+	"#d6ffac",
+	"#ffe999",
+	"#aadcff",
+	"#ff77b9",
+	"#b9fffa",
+	"#ffffff",
+
+	[255] = 0,
+
+	// more colors can be added after 255 to use with DefaultXX
+	"#cccccc",
+	"#555555",
+	"#9eacad", //default foreground colour
+	"#00141a", // default background colour
+};
 
 /*
  * Default colors (colorname index)
